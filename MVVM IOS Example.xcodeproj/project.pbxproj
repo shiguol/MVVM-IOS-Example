@@ -19,23 +19,8 @@
 		B8CCFA2C16E58F9D0031996A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8CCFA2B16E58F9D0031996A /* Default-568h@2x.png */; };
 		B8CCFA2F16E58F9D0031996A /* CDWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CCFA2E16E58F9D0031996A /* CDWViewController.m */; };
 		B8CCFA3216E58F9D0031996A /* CDWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8CCFA3016E58F9D0031996A /* CDWViewController.xib */; };
-		B8CCFA3A16E58F9D0031996A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CCFA3916E58F9D0031996A /* SenTestingKit.framework */; };
-		B8CCFA3B16E58F9D0031996A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CCFA1516E58F9D0031996A /* UIKit.framework */; };
-		B8CCFA3C16E58F9D0031996A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CCFA1716E58F9D0031996A /* Foundation.framework */; };
-		B8CCFA4416E58F9D0031996A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8CCFA4216E58F9D0031996A /* InfoPlist.strings */; };
-		B8CCFA4716E58F9D0031996A /* MVVM_IOS_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CCFA4616E58F9D0031996A /* MVVM_IOS_ExampleTests.m */; };
 		B8CCFA5216E593870031996A /* CDWPlayerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CCFA5116E593870031996A /* CDWPlayerViewModel.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B8CCFA3D16E58F9D0031996A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B8CCFA0A16E58F9D0031996A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B8CCFA1116E58F9D0031996A;
-			remoteInfo = "MVVM IOS Example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		48ED39B722F7D41B9357EEEF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,12 +41,7 @@
 		B8CCFA2D16E58F9D0031996A /* CDWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDWViewController.h; sourceTree = "<group>"; };
 		B8CCFA2E16E58F9D0031996A /* CDWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDWViewController.m; sourceTree = "<group>"; };
 		B8CCFA3116E58F9D0031996A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDWViewController.xib; sourceTree = "<group>"; };
-		B8CCFA3816E58F9D0031996A /* MVVM IOS ExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM IOS ExampleTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CCFA3916E58F9D0031996A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B8CCFA4116E58F9D0031996A /* MVVM IOS ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVVM IOS ExampleTests-Info.plist"; sourceTree = "<group>"; };
-		B8CCFA4316E58F9D0031996A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B8CCFA4516E58F9D0031996A /* MVVM_IOS_ExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVM_IOS_ExampleTests.h; sourceTree = "<group>"; };
-		B8CCFA4616E58F9D0031996A /* MVVM_IOS_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_IOS_ExampleTests.m; sourceTree = "<group>"; };
 		B8CCFA5016E593870031996A /* CDWPlayerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDWPlayerViewModel.h; sourceTree = "<group>"; };
 		B8CCFA5116E593870031996A /* CDWPlayerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDWPlayerViewModel.m; sourceTree = "<group>"; };
 		CDE219F80D2C4270AA17B240 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,16 +56,6 @@
 				B8CCFA1816E58F9D0031996A /* Foundation.framework in Frameworks */,
 				B8CCFA1A16E58F9D0031996A /* CoreGraphics.framework in Frameworks */,
 				8CFCC4693D7448F7A37BAB38 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8CCFA3416E58F9D0031996A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8CCFA3A16E58F9D0031996A /* SenTestingKit.framework in Frameworks */,
-				B8CCFA3B16E58F9D0031996A /* UIKit.framework in Frameworks */,
-				B8CCFA3C16E58F9D0031996A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				B8CCFA1B16E58F9D0031996A /* MVVM IOS Example */,
-				B8CCFA3F16E58F9D0031996A /* MVVM IOS ExampleTests */,
 				B8CCFA1416E58F9D0031996A /* Frameworks */,
 				B8CCFA1316E58F9D0031996A /* Products */,
 				863D30EBDF212B2E1C3D37A6 /* Pods */,
@@ -116,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				B8CCFA1216E58F9D0031996A /* MVVM IOS Example.app */,
-				B8CCFA3816E58F9D0031996A /* MVVM IOS ExampleTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,25 +130,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B8CCFA3F16E58F9D0031996A /* MVVM IOS ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				B8CCFA4516E58F9D0031996A /* MVVM_IOS_ExampleTests.h */,
-				B8CCFA4616E58F9D0031996A /* MVVM_IOS_ExampleTests.m */,
-				B8CCFA4016E58F9D0031996A /* Supporting Files */,
-			);
-			path = "MVVM IOS ExampleTests";
-			sourceTree = "<group>";
-		};
-		B8CCFA4016E58F9D0031996A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8CCFA4116E58F9D0031996A /* MVVM IOS ExampleTests-Info.plist */,
-				B8CCFA4216E58F9D0031996A /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +141,7 @@
 				B8CCFA0F16E58F9D0031996A /* Frameworks */,
 				B8CCFA1016E58F9D0031996A /* Resources */,
 				E56DD4B0540F4B9BAA1E92CE /* Copy Pods Resources */,
+				0A1E6C568078F2046DDE7D9E /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,25 +151,6 @@
 			productName = "MVVM IOS Example";
 			productReference = B8CCFA1216E58F9D0031996A /* MVVM IOS Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B8CCFA3716E58F9D0031996A /* MVVM IOS ExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B8CCFA4D16E58F9D0031996A /* Build configuration list for PBXNativeTarget "MVVM IOS ExampleTests" */;
-			buildPhases = (
-				B8CCFA3316E58F9D0031996A /* Sources */,
-				B8CCFA3416E58F9D0031996A /* Frameworks */,
-				B8CCFA3516E58F9D0031996A /* Resources */,
-				B8CCFA3616E58F9D0031996A /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B8CCFA3E16E58F9D0031996A /* PBXTargetDependency */,
-			);
-			name = "MVVM IOS ExampleTests";
-			productName = "MVVM IOS ExampleTests";
-			productReference = B8CCFA3816E58F9D0031996A /* MVVM IOS ExampleTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -244,7 +175,6 @@
 			projectRoot = "";
 			targets = (
 				B8CCFA1116E58F9D0031996A /* MVVM IOS Example */,
-				B8CCFA3716E58F9D0031996A /* MVVM IOS ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,29 +192,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8CCFA3516E58F9D0031996A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8CCFA4416E58F9D0031996A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B8CCFA3616E58F9D0031996A /* ShellScript */ = {
+		0A1E6C568078F2046DDE7D9E /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		E56DD4B0540F4B9BAA1E92CE /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -314,23 +238,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8CCFA3316E58F9D0031996A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8CCFA4716E58F9D0031996A /* MVVM_IOS_ExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B8CCFA3E16E58F9D0031996A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B8CCFA1116E58F9D0031996A /* MVVM IOS Example */;
-			targetProxy = B8CCFA3D16E58F9D0031996A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B8CCFA1E16E58F9D0031996A /* InfoPlist.strings */ = {
@@ -347,14 +255,6 @@
 				B8CCFA3116E58F9D0031996A /* en */,
 			);
 			name = CDWViewController.xib;
-			sourceTree = "<group>";
-		};
-		B8CCFA4216E58F9D0031996A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8CCFA4316E58F9D0031996A /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,9 +320,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48ED39B722F7D41B9357EEEF /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MVVM IOS Example/MVVM IOS Example-Prefix.pch";
 				INFOPLIST_FILE = "MVVM IOS Example/MVVM IOS Example-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"ReactiveCocoa\"",
+					"-framework",
+					"\"Foundation\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -432,45 +341,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 749FB239A684F43F48773F84 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MVVM IOS Example/MVVM IOS Example-Prefix.pch";
 				INFOPLIST_FILE = "MVVM IOS Example/MVVM IOS Example-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"ReactiveCocoa\"",
+					"-framework",
+					"\"Foundation\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		B8CCFA4E16E58F9D0031996A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MVVM IOS Example.app/MVVM IOS Example";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MVVM IOS Example/MVVM IOS Example-Prefix.pch";
-				INFOPLIST_FILE = "MVVM IOS ExampleTests/MVVM IOS ExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		B8CCFA4F16E58F9D0031996A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MVVM IOS Example.app/MVVM IOS Example";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MVVM IOS Example/MVVM IOS Example-Prefix.pch";
-				INFOPLIST_FILE = "MVVM IOS ExampleTests/MVVM IOS ExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -491,15 +375,6 @@
 			buildConfigurations = (
 				B8CCFA4B16E58F9D0031996A /* Debug */,
 				B8CCFA4C16E58F9D0031996A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B8CCFA4D16E58F9D0031996A /* Build configuration list for PBXNativeTarget "MVVM IOS ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8CCFA4E16E58F9D0031996A /* Debug */,
-				B8CCFA4F16E58F9D0031996A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
